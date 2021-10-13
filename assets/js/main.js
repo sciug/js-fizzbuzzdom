@@ -5,7 +5,7 @@ let list = document.getElementById("list")
 
 //creare ciclo for 
 //inseire nel "clico for" "if statements"
-// determinare quando un numero è divisibile atraverso operatore modulo %
+// determinare quando un numero è divisibile attraverso operatore modulo %
 
 for (let i=1; i<=100; i++){
     if(i%5 == 0 && i%3==0){

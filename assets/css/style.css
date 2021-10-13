@@ -10,18 +10,20 @@ body{
 h1{
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 5rem;
+    margin-top: 2rem;
 }
 .list{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    gap:2rem
    
 }
 
 .boxes_container{
-    width: 80%;
-    margin: 0 auto;
+    width:60%;
+    margin: 5rem auto;
 }
 
 .box{
@@ -29,6 +31,10 @@ h1{
     justify-content: center;
     align-items: center;
     display: flex;
+    font-weight: 700;
+    width: 100px;
+    height: 100px;
+    
 
 
 }
@@ -37,6 +43,7 @@ h1{
 
 .box-3{
     background-color: #0bd6a1;
+    
 }
 .box-5{
 background-color: #ffd166;}
