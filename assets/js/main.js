@@ -23,11 +23,37 @@ for (let i=1; i<=100; i++){
         
     const element = `<li class="box">${i}</li>`
     list.innerHTML += element
-
+    
     }
 
+}
 
+// ON CLICK
 
+let element = document.getElementsByClassName("box")
 
+for (let i=0; i<element.length; i++){
+    element[i].addEventListener("click", function(){
+        element[i].classList.add("big")
+        
+
+    })
+    
 
 }
+
+
+
+// DOUBLE CLICK
+
+for (let i=0; i<element.length; i++){
+    element[i].addEventListener("dblclick", function(){
+        element[i].classList.remove("big")
+        
+
+    })
+    
+
+}
+
+

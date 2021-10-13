@@ -36,11 +36,12 @@ h1{
     height: 100px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #1389b2;
-    
-    
-
-
+    transform: scale(1); 
+    transition: all 250ms;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
 }
+
 
 
 
@@ -55,4 +56,10 @@ box-shadow:  0px 0px 10px #ffd166;}
 .box-3-5{
     background-color: #f0466f;
     box-shadow: 0px 0px 10px #f0466f;
+}
+
+
+.big{
+    transform: scale(1.2);
+    border-radius: 20px;
 }
