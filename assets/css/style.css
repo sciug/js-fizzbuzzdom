@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #083b4c;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.boxes_container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box{
+    background-color:#1389b2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+
+
+
+.box-3{
+    background-color: #0bd6a1;
+}
+.box-5{
+background-color: #ffd166;}
+.box-3-5{
+    background-color: #f0466f;
+}
